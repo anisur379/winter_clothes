@@ -1,0 +1,549 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/b7476b1f17.js" crossorigin="anonymous"></script>
+</head>
+<style>
+    body {
+        background-color: rgb(224, 255, 255);
+    }
+
+    .top-winter {
+        display: flex;
+    }
+
+    .black {
+        justify-content: center;
+        align-items: center;
+        margin-left: 440px;
+    }
+
+    .hello {
+        height: 350px;
+        width: 300px;
+        margin: 0%;
+    }
+
+    .top-pera {
+        width: 80%;
+        margin-top: 10px;
+        margin-bottom: 50px;
+
+
+    }
+
+    .hello-top {
+        display: flex;
+
+
+    }
+
+    .hello-bottom {
+        margin-right: 200px;
+        margin-left: 40px;
+        box-shadow: -3px 3px 20px;
+        border-radius: 20px;
+        background-color: rgb(127, 106, 182);
+
+    }
+
+    .hello-bottom img {
+        height: 300px;
+        width: 300px;
+    }
+
+    .hello-bottom p {
+        text-align: center;
+        font-size: 17px;
+    }
+
+    .main {
+        height: 500px;
+        width: 300px;
+        box-shadow: -3px 3px 20px;
+        border-radius: 15px;
+        background-color: rgb(127, 106, 182);
+
+    }
+
+    .main p {
+        text-align: left;
+        color: white;
+        border: 7px solid lightblue;
+        width: 33%;
+        background-color: rgb(127, 106, 182);
+        border-radius: 5px;
+
+    }
+
+    .brother {
+        margin-left: 200px;
+        margin-top: 50px;
+
+    }
+
+    .hello-bottom img {
+        margin-right: 30px;
+        margin-top: 50px;
+    }
+
+    .hello-bottom img {
+        height: 300px;
+        width: 280px;
+        padding-left: 10px;
+    }
+
+    .star-1 {
+        align-items: center;
+        color: gold;
+    }
+
+    .hello-bottom p {
+        text-align: left;
+        font-size: 17px;
+        color: white;
+        border: 7px solid lightblue;
+        width: 33%;
+        background-color: rgb(175, 153, 232);
+        border-radius: 5px;
+    }
+
+    .mother {
+        margin-top: 50px;
+    }
+
+    .icon-change {
+        margin-left: 20px;
+    }
+
+    i {
+        color: rgb(237, 211, 64);
+
+    }
+
+    .top-anchor {
+        text-decoration: none;
+        color: black;
+        border: 10px solid rgb(175, 153, 232);
+        width: 33%;
+        background-color: lightgray;
+        border-radius: 8px;
+    }
+
+    .top-header {
+        font-size: 40px;
+    }
+
+    .bro {
+        font-size: 18px;
+        color: black;
+    }
+
+    h4 {
+        text-align: center;
+        color: white;
+        background-color: lightseagreen;
+        width: 50%;
+        margin-left: 50px;
+    }
+
+    .dot {
+        text-align: center;
+        font-size: 100px;
+    }
+
+    .one {
+        color: rgb(174, 50, 50);
+    }
+
+    .two {
+        color: rgb(235, 120, 120);
+    }
+
+    .three {
+        color: rgb(152, 85, 85);
+    }
+
+    .four {
+        color: rgb(161, 134, 134);
+    }
+
+    .makrosha {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .makrosha h3 {
+        margin-right: 20px;
+    }
+
+    .makrosha-top {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .make-grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+        column-gap: 20px;
+        row-gap: 20px;
+        margin-left: 10px;
+    }
+
+    .make-grid img {
+        height: 300px;
+        width: 300px;
+        margin-left: 30px;
+        margin-top: 30px;
+    }
+
+    .baby-1 img {
+        height: 300px;
+        width: 300px;
+    }
+
+    .baby-2 img {
+        height: 300px;
+        width: 300px;
+    }
+
+    .baby-3 img {
+        height: 300px;
+        width: 300px;
+    }
+
+    .baby-4 img {
+        height: 300px;
+        width: 300px;
+    }
+
+    .baby-5 img {
+        height: 250px;
+        width: 300px;
+        margin-top: 50px;
+    }
+
+    .baby-6 img {
+        height: 250px;
+        width: 300px;
+        margin-top: 50px;
+    }
+
+    .baby-7 img {
+        height: 250px;
+        width: 300px;
+        margin-top: 50px;
+
+    }
+
+    .baby-8 img {
+        height: 250px;
+        width: 300px;
+        margin-top: 50px;
+        margin-left: 40px;
+
+    }
+
+    .grid-top {
+        background-color: lightpink;
+    }
+
+    .shadow {
+        box-shadow: -3px 3px 20px;
+        background-color: rgb(127, 106, 182);
+
+    }
+
+    .shadow image {
+        margin-left: 30px;
+        padding-left: 30px;
+
+    }
+
+    .icon-change p {
+        color: white;
+        border: 3px solid lightpink;
+        background-color: royalblue;
+        width: 60%;
+
+    }
+
+    footer {
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .footers {
+        color: white;
+        text-align: center;
+        background-color: navy;
+        font-size: 25px;
+        border: 6px solid coral;
+    }
+
+    .icon-change h4 {
+        margin-left: 70px;
+    }
+
+    .icon-change p {
+        width: 30%;
+    }
+
+    .icon-change .babies {
+        width: 60%;
+    }
+
+    .nav-top .ul-1 {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .nav-top a {
+        text-decoration: none;
+        margin-right: 50px;
+        color: white;
+        font-size: 20px;
+        border: 5px solid lightblue;
+        border-radius: 10px;
+
+    }
+
+    .ul-1 li {
+        list-style: none;
+        margin-top: 10px;
+
+    }
+
+    .nav-top #child {
+        margin-right: 420px;
+        color: white;
+        font-size: 20px;
+        border: 5px solid lightblue;
+        border-radius: 10px;
+        margin-bottom: 5px;
+    }
+
+
+    .nav-top {
+        background-color: rgb(97, 161, 112);
+        color: white;
+        border-radius: 10px;
+    }
+
+    .footers {
+        border-radius: 20px;
+    }
+</style>
+
+<body>
+    <nav class="nav-top">
+        <ul class="ul-1">
+            <li id="child"><span>FIFASH</span></li>
+            <li><a href="https://www.instagram.com/anisur379/">MEN</a></li>
+            <li><a href="https://www.instagram.com/anisur379/">WOMEN</a></li>
+            <li><a href="https://www.instagram.com/anisur379/">KIDS</a></li>
+            <li><a href="https://www.instagram.com/anisur379/">COLLECTIONS</a></li>
+            <li><a href="https://www.instagram.com/anisur379/">TRENDS</a></li>
+            <li id="login"><a href="https://www.instagram.com/anisur379/">LOGIN</a></li>
+        </ul>
+    </nav>
+    <section>
+        <div class="top-winter">
+            <div class="brother">
+                <h1 class="top-header">Winter Product Seller</h1>
+                <p class="top-pera">There's something magical about wintertime. But as the days start to
+                    get a little
+                    shorter and a lot
+                    colder, it's
+                    easy to lose sight of this sense of wonder. Fear not, all you need is a little shift in
+                    perspective
+                    to
+                    see the
+                    beauty of winter again.
+                </p>
+                <a class="top-anchor" href="https://www.facebook.com/anisur4201">See More</a>
+            </div>
+            <div class="mother">
+                <div class="hello-top">
+                    <div class="main">
+                        <img class="hello" src="winter1.png" alt="">
+                        <div class="icon-change">
+                            <p>Winter Hijab</p>
+                            <span class="star-1">
+                                <i class="fa-regular fa-star fa-2x"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </span>
+                            <h4>$220</h4>
+                        </div>
+                    </div>
+                    <div class="hello-bottom">
+                        <img src="winter2.png" alt="">
+                        <div class="icon-change">
+                            <p>Winter Suit</p>
+                            <span class="star-2">
+                                <i class="fa-regular fa-star fa-2x"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </span>
+                            <h4>$420</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <h1 class="dot"><span class="one">.</span><span class="two">.</span><span class="three">.</span><span
+            class="four">.</span></h1>
+    <h1 class="makrosha-top">Our Products</h1>
+    <div class="makrosha">
+        <h3>HOT</h3>
+        <h3>ON SALE</h3>
+        <h3>TRENDING NOW</h3>
+        <h3>NEW ARRIVAL</h3>
+    </div>
+    <section class="grid-top">
+        <div class="make-grid">
+            <div class="shadow">
+                <div class="baby-1">
+                    <img src="baby1.jpg" alt="">
+                    <div class="icon-change">
+                        <p class="babies">BABY WINTER CLOTHES</p>
+                        <span class="star-1">
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </span>
+                        <h4>$220</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="shadow">
+                <div class="baby-2">
+                    <img src="baby2.jfif" alt="">
+                    <div class="icon-change">
+                        <p class="babies">BABY WINTER CLOTHES</p>
+                        <span class="star-1">
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </span>
+                        <h4>$220</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="shadow">
+                <div class="baby-3">
+                    <img src="baby3.jfif" alt="">
+                    <div class="icon-change">
+                        <p class="babies">BABY WINTER CLOTHES</p>
+                        <span class="star-1">
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </span>
+                        <h4>$220</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="shadow">
+                <div class="baby-4">
+                    <img src="baby4.jfif" alt="">
+                    <div class="icon-change">
+                        <p class="babies">BABY WINTER CLOTHES</p>
+                        <span class="star-1">
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </span>
+                        <h4>$220</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="shadow">
+                <div class="baby-5">
+                    <img src="baby5.jpg" alt="">
+                    <div class="icon-change">
+                        <p class="babies">BABY WINTER CLOTHES</p>
+                        <span class="star-1">
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </span>
+                        <h4>$220</h4>
+                    </div>
+
+                </div>
+            </div>
+            <div class="shadow">
+                <div class="baby-6">
+                    <img src="baby7.jfif" alt="">
+                    <div class="icon-change">
+                        <p class="babies">BABY WINTER CLOTHES</p>
+                        <span class="star-1">
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </span>
+                        <h4>$220</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="shadow">
+                <div class="baby-7">
+                    <img src="baby8.jpg" alt="">
+                    <div class="icon-change">
+                        <p class="babies">BABY WINTER CLOTHES</p>
+                        <span class="star-1">
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </span>
+                        <h4>$220</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="shadow">
+                <div class="baby-8">
+                    <img src="baby9.jpg" alt="">
+                    <div class="icon-change">
+                        <p class="babies">BABY WINTER CLOTHES</p>
+                        <span class="star-1">
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </span>
+                        <h4>$220</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <span class="footers">Copyright</span>
+    </footer>
+    <footer class="black">
+        <h4>Developed by : Anisur Rahman</h4>
+    </footer>
+</body>
+
+</html>
